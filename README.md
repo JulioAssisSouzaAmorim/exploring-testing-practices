@@ -44,8 +44,18 @@ Escolha uma prática ou dado de teste relevante e explique com suas próprias pa
 
 ## Respostas
 
-Repositório: `<URL_DO_REPOSITÓRIO>`
+Repositório: `[<URL_DO_REPOSITÓRIO>](https://github.com/fastapi/fastapi)`
 
-URL TestMiner: `<URL_NO_TESTMINER>`
+URL TestMiner: `[<URL_NO_TESTMINER>](https://andrehora.github.io/testminer/#fastapi/fastapi)`
 
-Explicação: `<SUA_EXPLICAÇÃO>`
+Explicação:
+
+**Prática - Code-Driven Development**
+
+No TestMiner, a seção *Test History* nos permite visualizar a evolução no número de testes, helpers e código-fonte geral no repositório da fastapi ao longo de versões consolidadas. Tal acesso nos permite avaliar até que ponto práticas de TDD (Test-Driven Development) foram adotadas no curso do projeto que produziu o programa.
+
+Da release mais antiga até a mais recente, o número de testes explodiu, indo de 4 na versão 0.1.11, para 440 na versão 0.95.2 e 620 na versão 0.143.0. O número de testes CI e helpers cresceu em proporção similar, todos seguindo a tendência geral do código fonte, antes com cardinalidade de 160, e agora (na versão 0.143.0) com cardinalidade de 2199.
+
+Isso nos indica que o número de testes associado ao projeto cresceu significativamente desde sua incepção. Embora parte desse crescimento tenha acompanhando o crescimento do próprio código-fonte, como notamos, é fato que a expansão ainda é um tanto desproporcional, o que é esperado de dinâmicas de desenvolvimento que não fundamentam a criação do código no estabelecimento prévio de testes. Em suma, o programa foi, primeiro, consolidado, e só depois equipado com módulos de teste para validar o trabalho inicial.
+
+Depreende-se daí que a abordagem utilizada, ao menos nas fases iniciais, foi a de Code-Driven Development, uma estratégia mais convencional que a alternativa, Test-Driven Development. A ideia é priorizar a prototipagem rápida e a solução de problemas imediatos pela permissão de desenvolver primeiro para depois validar o que foi desenvolvido. Essa claramente foi a abordagem inicial, mas não se pode extrapolar daí que o projeto não passou a adotar práticas de TDD mais recentemente, o que é perfeitamente praticável, dado o número massivo de testes hoje dispostos.
