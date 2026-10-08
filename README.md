@@ -44,9 +44,9 @@ Escolha uma prática ou dado de teste relevante e explique com suas próprias pa
 
 ## Respostas
 
-Repositório: `[<URL_DO_REPOSITÓRIO>](https://github.com/fastapi/fastapi)`
+Repositório: https://github.com/fastapi/fastapi
 
-URL TestMiner: `[<URL_NO_TESTMINER>](https://andrehora.github.io/testminer/#fastapi/fastapi)`
+URL TestMiner: https://andrehora.github.io/testminer/#fastapi/fastapi
 
 Explicação:
 
